@@ -136,6 +136,7 @@ function objDisplay:new(oSettings, oGuideTables)
 		if obj.CurrentStep > 1 then
 			obj.CurrentStep = obj.CurrentStep - 1
 			obj.StepFrameDisplay = obj.ScrollFrameDisplay[obj.CurrentStep]
+			obj:UpdateGuideValuesSettings()
 		else
 			obj:PrevGuide(true)
 		end
@@ -145,6 +146,7 @@ function objDisplay:new(oSettings, oGuideTables)
 		if obj.CurrentStep < obj.CurrentStepCount then
 			obj.CurrentStep = obj.CurrentStep + 1
 			obj.StepFrameDisplay = obj.ScrollFrameDisplay[obj.CurrentStep]
+			obj:UpdateGuideValuesSettings()
 		else
 			obj:NextGuide()
 		end
