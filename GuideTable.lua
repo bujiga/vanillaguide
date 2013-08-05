@@ -216,7 +216,7 @@ function objGuideTable:new(oSettings)
 				{ "v", "1-10 Elwynn Forest", id = nil },
 				{ "v", "10-12 Westfall and Lock Modan", id = nil },
 			},
-			["Dwarves & Gnome"] = {
+			["Dwarves & Gnomes"] = {
 				{ "v", "1-6 Cold Ridge Valley", id = nil },
 				{ "v", "6-12 Dun Morogh", id = nil },
 			},
@@ -423,7 +423,7 @@ function objGuideTable:new(oSettings)
 		else
 			xSearchID(obj.TableDDM.lvl3["Humans"])
 			xSearchID(obj.TableDDM.lvl3["Night Elves"])
-			xSearchID(obj.TableDDM.lvl3["Dwarves & Gnome"])
+			xSearchID(obj.TableDDM.lvl3["Dwarves & Gnomes"])
 		end
 	end
 
