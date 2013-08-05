@@ -213,7 +213,7 @@ function objGuideTable:new(oSettings)
 			},
 
 			["Humans"] = {
-				{ "v", "1-10 Elywnn Forest", id = nil },
+				{ "v", "1-10 Elwynn Forest", id = nil },
 				{ "v", "10-12 Westfall and Lock Modan", id = nil },
 			},
 			["Dwarves & Gnome"] = {
