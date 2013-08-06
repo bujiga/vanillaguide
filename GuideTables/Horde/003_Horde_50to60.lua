@@ -331,7 +331,7 @@ Table_003_Horde_50to60 = {
 		--itemCount = 31,
 		items = {
 			[1] = { str = "55-55 Felwood" },
-			[2] = { str = "01) Turn in #TURNIN\"Wild Guardians\"# ... Accept #ACCEPT\"Wild Guardians\"# part2 and #ACCEPT\"Well of Corruption"#" },
+			[2] = { str = "01) Turn in #TURNIN\"Wild Guardians\"# ... Accept #ACCEPT\"Wild Guardians\"# part2 and #ACCEPT\"Well of Corruption\"#" },
 			[3] = { str = "02) Go turn in #TURNIN\"Cleansing Felwood\"# ... then get a cenarion beacon for the quest #DOQUEST\"Salve Via Hunting\"# (just talk to the NPC to get it) (46.83)", x = 46, y = 83, zone = "Felwood" },
 			[4] = { str = "03) Go turn in #TURNIN\"Verifying the Corruption\"# and #TURNIN\"Forces of Jaedenar\"# ... accept #ACCEPT\"Collection of the Corrupt Water\"# (51.82)", x = 51, y = 82, zone = "Felwood" },
 			[5] = { str = "04) Go do in the following order:" },
