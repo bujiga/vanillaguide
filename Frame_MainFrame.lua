@@ -942,10 +942,12 @@ function objMainFrame:new(fParent, tTexture, oSettings, oDisplay)
 						mapName, label, "VanillaGuide", 6, 6, 9, 8, 1)
 				end
 			end
-		else 
-			BWP_ClearDest() 
-			local frame = getglobal("BWP_DisplayFrame")
-			frame:Hide()
+		else
+			if BWP_ClearDest then 
+				BWP_ClearDest() 
+				local frame = getglobal("BWP_DisplayFrame")
+				frame:Hide()
+			end
 		end
 	end
 	
